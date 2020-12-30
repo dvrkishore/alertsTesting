@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="AlertsTesting.TC001_AlertOne">
+        <methods>
+          <include name="BrowserLaunch_ApplicationLaunch"/>
+        </methods>
+      </class> <!-- AlertsTesting.TC001_AlertOne -->
+      <class name="AlertsTesting.TC002_AlertTwo">
+        <methods>
+          <include name="BrowserLaunch_ApplicationLaunch"/>
+        </methods>
+      </class> <!-- AlertsTesting.TC002_AlertTwo -->
+      <class name="AlertsTesting.TC003_AlertThree">
+        <methods>
+          <include name="BrowserLaunch_ApplicationLaunch"/>
+        </methods>
+      </class> <!-- AlertsTesting.TC003_AlertThree -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
